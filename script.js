@@ -22,7 +22,7 @@ function startTimer() {
         if (now.getTime() - timeToExercise == 0) {
             self.resetTimer()
         }
-    }, 1000);
+    }, 60000);
 }
 
 function stopTimer() {
