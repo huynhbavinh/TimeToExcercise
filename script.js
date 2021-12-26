@@ -45,5 +45,5 @@ function resetTimer() {
 }
 
 function playAudio() {
-    audio.play
+    audio.play()
 }
